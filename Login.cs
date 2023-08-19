@@ -319,6 +319,9 @@ namespace Tartarus
                 MessageBox.Show("Failed to login ! " + ecx, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
+            // OUTDATED MYSQL .NET CONSTRUCTOR FOR ACCOUNT REGISTRATION
+            // UNSECURE AND VUNERABLE
+
             /*
             var regexItem = new Regex("^[a-zA-Z0-9 ]*$");
 
