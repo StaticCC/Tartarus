@@ -16,7 +16,7 @@ namespace Tartarus
         [STAThread]
         static void Main()
         {
-            
+            //unsecure method of grabbing server credentials, this needs to be changed to increase security
             byte[] key = { 0x02, 0x03, 0x01, 0x03, 0x03, 0x07, 0x07, 0x08, 0x09, 0x09, 0x11, 0x11, 0x16, 0x17, 0x19, 0x16 };
 
             //Get ConnectionData
@@ -48,6 +48,8 @@ namespace Tartarus
                 ServerData.sqlDb = connectionDataArray[1];
                 ServerData.sqlUser = connectionDataArray[2];
                 ServerData.sqlPass = connectionDataArray[3];
+                
+                //set in ServerData.cs and comment these lines
             }
             catch
             {
