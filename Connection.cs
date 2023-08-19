@@ -14,7 +14,7 @@ namespace Tartarus
     {
 
         public MySql.Data.MySqlClient.MySqlConnection conn;
-        static string host = ServerData.host;
+        static string host = ServerData.host; //replace with strings for testing
         static string database = ServerData.sqlDb;
         static string userDB = ServerData.sqlUser;
         static string password = ServerData.sqlPass;
