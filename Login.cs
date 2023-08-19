@@ -250,7 +250,7 @@ namespace Tartarus
             try
             {
                 //Default Response
-                //Static / 0 / 5 / 0 / ZpqI4tGdZDM LqTZ19RYvFu1ipmaHwTRtQ q7xnSwj4AnSzV / 07890f5e-2868-45e2-a1d2-e7472947b228 / 73.218.115.92
+                //Static / 0 / 5 / 0 / password / 07890f5e-2868-45e2-a1d2-e7472947b228 / 
                 //string query = "SELECT username,password,admin,banned FROM users WHERE username='" + UserData.name + "'";
                 string api_Login = "";
                 using (var client = new WebClient())
