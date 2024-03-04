@@ -2,6 +2,10 @@
 
 Secure your C# and Visual Basic WinForm applications with ease using Tartarus, the all-in-one solution for software licensing.
 
+This project is outdated. The connection between the MySql.Data constructor and the Server is insecure. 
+
+I gave some sections of code that you could update to a CRUD API, which should secure the application. 
+
 ## Features
 
 - **Cross-Language Support:** Tartarus seamlessly supports both C# and Visual Basic, making it versatile for developers using either language.
